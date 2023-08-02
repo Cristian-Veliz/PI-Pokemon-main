@@ -1,0 +1,10 @@
+export const GET_ALL_POKEMONS = "GET_ALL_POKEMONS";
+export const GET_ALL_TYPES = "GET_ALL_TYPES";
+export const GET_POKEMON_BY_ID = "GET_POKEMON_BY_ID";
+export const GET_POKEMON_BY_NAME = "GET_POKEMON_BY_NAME";
+export const ORDER_BY_NAME = "ORDER_BY_NAME";
+export const ORDER_BY_ATTACK = "ORDER_BY_ATTACK";
+export const FILTER_ALL = "FILTER_ALL";
+export const CLEAR_DETAIL = "CLEAR_DETAIL";
+export const PREV = "PREV";
+export const NEXT = "NEXT";

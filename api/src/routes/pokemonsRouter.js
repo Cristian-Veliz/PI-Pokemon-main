@@ -74,7 +74,7 @@ router.get('/:idPokemon', async (req, res, next) => {
 
 
 
-//! Crear un nuevo Pokemon
+//Crear un nuevo Pokemon
 router.post('/', async (req, res, next) => {
   try {
     

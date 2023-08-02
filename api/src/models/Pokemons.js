@@ -11,13 +11,13 @@ module.exports = (sequelize) => {
       primaryKey: true,
     },
     name:{
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(25),
       allowNull: false,
-      unique: true,
+      unique: false,
     },
     image:{
       type:DataTypes.STRING,
-      allowNull: true,
+      allowNull: false,
     },
     hp:{
       type:DataTypes.INTEGER,
@@ -33,15 +33,15 @@ module.exports = (sequelize) => {
     },
     speed: {
       type: DataTypes.INTEGER,
-      allowNull: true,
+      allowNull: false,
     },
     height:{
       type:DataTypes.INTEGER,
-      allowNull: true,
+      allowNull: false,
     },
     weight:{ 
       type:DataTypes.INTEGER,
-      allowNull: true,
+      allowNull: false,
     },
     
     

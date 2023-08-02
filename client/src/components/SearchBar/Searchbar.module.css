@@ -1,0 +1,48 @@
+.container{
+  
+  display:block;
+  position:relative;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px; 
+
+}
+
+.container input{
+    height: 27px;
+    width: 300px;
+    background-color: whitesmoke;  
+    border-radius: 5px;
+    border: 2px rgba(241, 230, 20, 0.986) solid;
+
+
+}
+
+.container NavLink{
+    background-color:   rgb(118, 243, 174);
+    font: oblique bold 100% cursive;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    border: 2px rgba(241, 230, 20, 0.986) solid;
+    color: black;
+    
+   
+}
+
+.container button:hover {
+  background-color:  blanchedalmond;
+  cursor: pointer;
+}
+
+
+
+/* background-color: rgb(118, 243, 174);
+padding: 4px 14px;
+margin: 4px 4px;
+border-radius: 4px;
+border: 1px rgb(219, 210, 38) solid; */
+

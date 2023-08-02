@@ -1,7 +1,7 @@
 const axios = require("axios");
 const { Pokemons, Types } = require("../db");
 const pokeapi = "https://pokeapi.co/api/v2/pokemon/";
-const limit = 20;
+const limit = 48;
 
 async function getPokemonsApi() {
   //La f busca pokemons en la API
